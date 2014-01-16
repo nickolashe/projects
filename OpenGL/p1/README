@@ -1,0 +1,25 @@
+Nickolay Shestopalov
+nicko.shestopalov@gmail.com
+Recursive algorithm to draw a tree with some elements of randomization.
+Distributed under GPL.
+
+Submitted files:
+README		   this file
+Makefile	   compile with just make or make BOX=xxx if the box is not dell.
+drawppm.h	   function for reading in the background image
+drawplant3d.h      header file
+mult.h		   matrix multiplication and copying routines.
+drawplant3d.cpp    code for plant drawing routines.
+plant.cpp	   code for initializing the window and interface etc.
+treedawn.ppm  	   background image
+treedawn.png	   screenshot from the program window
+
+
+UI:
+Branch height: in pixels the height of the last branches. decrease when increasing tree depth or else it won't fit on the screen.
+Branch width:  in pixels the width of the last branch. increase when increasing tree depth else won't be able to see little branches.
+Twig rendering detail: approximation for the cone of the branch. also affects color of the twig.
+Twig width gradient: how fast width decreases.
+
+The values are changed better from keyboard then using the spinne controls.
+

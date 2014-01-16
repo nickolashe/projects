@@ -1,0 +1,20 @@
+Nickolay Shestopalov
+nicko.shestopalov@gmail.com
+Funny way to draw julia set fractals using a mapping in complex space.
+Distributed under GPL.
+
+complex.h/cpp		complex number implementation
+juliaset.h/cpp		draw_juliaset subroutine 
+polyhedra.h		vertices collection for given surfaces
+splinecurve.h/cpp	routines for drawing spline curves
+subdivision.h		algorithms for catmull clark and simple 1-to-4 
+subdivisionsurface.h/cpp		routines for drawing surfaces
+main.cpp		main program
+juliaset.jpg		julia set image
+juliaset2.jpg		another julia set image
+
+User interface:
+switch between julia sets, curves and surfaces with the first listbox.
+when in curve mode use left mouse button to put control points, right mouse button to finish entering control points and display the curve. press right button again to start entering control points for the new curve.
+
+use 'n' move forward in subdivion sequence, 'p' to move backwards.

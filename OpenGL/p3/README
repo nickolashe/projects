@@ -1,0 +1,9 @@
+Nickolay Shestopalov
+nicko.shestopalov@gmail.com
+Raytracing implementation with adjustable depth of tracement.
+Distributed under GPL.
+
+geometry.cpp - geometric calculations
+light.cpp - lighting calculaions.
+raytracer.cpp - main program.
+raytrace.png - scene image
