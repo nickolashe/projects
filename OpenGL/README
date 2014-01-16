@@ -1,6 +1,9 @@
 Nickolay Shestopalov
 nicko.shestopalov@gmail.com
 Here are some projects I've had fun with while learning OpenGL.
+Each folder has a screenshot from a running program.
+You will need OpenGL, GLUT and GLUI libraries to compile and run the programs 
+on your system.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
